@@ -1,0 +1,35 @@
+{
+    "name": "walkwizus/magento2-module-meilisearch-breeze",
+    "description": "Meilisearch integration for Magento 2 - Breeze compatibility",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Jimmy Carricart",
+            "email": "jimmy@walkwizus.fr"
+        }
+    ],
+    "homepage": "https://github.com/walkwizus/magento2-module-breeze-meilisearch",
+    "keywords": [
+        "Adobe Commerce",
+        "Magento",
+        "Magento 2",
+        "Meilisearch",
+        "Search",
+        "InstantSearch",
+        "Breezefront"
+    ],
+    "require": {
+        "magento/framework": ">=103.0.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Walkwizus\\MeilisearchBreeze\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
