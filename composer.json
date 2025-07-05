@@ -20,7 +20,8 @@
         "Breezefront"
     ],
     "require": {
-        "magento/framework": ">=103.0.4"
+        "magento/framework": ">=103.0.4",
+        "swissup/module-breeze": "^2.22.3"
     },
     "autoload": {
         "files": [
