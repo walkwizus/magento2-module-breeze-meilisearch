@@ -8,6 +8,7 @@ It enables native integration with the [Breeze](https://breezefront.com/) fronte
 * Magento >= 2.4.4
 * Meilisearch >= v1.9.0
 * PHP >= 8.1
+* Breeze >= 2.22.3
 
 Magento 2 module install
 
