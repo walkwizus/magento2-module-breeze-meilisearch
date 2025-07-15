@@ -19,6 +19,7 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/lib/fuse.min</item>
                                 <item name="global" xsi:type="string">Fuse</item>
                             </item>
+                            <!-- Services -->
                             <item name="Walkwizus_MeilisearchFrontend/js/service/meilisearch-service" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/meilisearch-service</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
@@ -31,20 +32,17 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/search</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/boot" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/boot</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
+                            <!-- Components -->
                             <item name="Walkwizus_MeilisearchFrontend/js/components/autocomplete" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/autocomplete</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/config" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/config</item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/autocomplete/product" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/autocomplete/product</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/limiter" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/limiter</item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/boot" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/boot</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/components/counter" xsi:type="array">
@@ -55,8 +53,24 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/searchbox" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/searchbox</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/types/checkbox" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/types/checkbox</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/types/price" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/types/price</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/components/hits" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/hits</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/components/limiter" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/limiter</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/components/pagination" xsi:type="array">
@@ -75,18 +89,7 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/viewmode</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/searchbox" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/searchbox</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/types/checkbox" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/types/checkbox</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="Walkwizus_MeilisearchFrontend/js/components/facets/types/price" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/components/facets/types/price</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
+                            <!-- Models -->
                             <item name="Walkwizus_MeilisearchFrontend/js/model/config-model" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/config-model</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
@@ -97,6 +100,10 @@
                             </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/model/limiter-state" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/limiter-state</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/model/product-model" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/product-model</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/model/search-state" xsi:type="array">
@@ -118,7 +125,8 @@
         </referenceBlock>
         <referenceContainer name="breeze.container">
             <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::autocomplete.html"/>
-            <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::autocomplete/hits.html"/>
+            <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::autocomplete/category.html"/>
+            <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::autocomplete/product.html"/>
             <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::counter.html"/>
             <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::facets.html"/>
             <block class="Swissup\Breeze\Block\HtmlTemplate" template="Walkwizus_MeilisearchFrontend::facets/searchbox.html"/>
