@@ -118,6 +118,10 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/viewmode-state</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/prices" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/prices</item>
+                                <item name="anonymous" xsi:type="boolean">true</item>
+                            </item>
                         </item>
                     </item>
                 </argument>
