@@ -20,6 +20,10 @@
                                 <item name="global" xsi:type="string">Fuse</item>
                             </item>
                             <!-- Services -->
+                            <item name="Walkwizus_MeilisearchFrontend/js/service/config-manager" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/config-manager</item>
+                                <item name="global" xsi:type="string">meilisearchConfigManager</item>
+                            </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/service/disjunctive-search" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/disjunctive-search</item>
                                 <item name="global" xsi:type="string">meilisearchDisjunctiveSearch</item>
@@ -94,10 +98,6 @@
                                 <item name="anonymous" xsi:type="boolean">true</item>
                             </item>
                             <!-- Models -->
-                            <item name="Walkwizus_MeilisearchFrontend/js/model/config-model" xsi:type="array">
-                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/config-model</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/model/facets-state" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/model/facets-state</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
