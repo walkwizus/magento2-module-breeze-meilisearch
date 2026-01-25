@@ -24,6 +24,10 @@
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/disjunctive-search</item>
                                 <item name="global" xsi:type="string">MeilisearchDisjunctiveSearch</item>
                             </item>
+                            <item name="Walkwizus_MeilisearchFrontend/js/service/facets" xsi:type="array">
+                                <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/facets</item>
+                                <item name="global" xsi:type="string">MeilisearchFacets</item>
+                            </item>
                             <item name="Walkwizus_MeilisearchFrontend/js/service/meilisearch-service" xsi:type="array">
                                 <item name="path" xsi:type="string">Walkwizus_MeilisearchFrontend/js/service/meilisearch-service</item>
                                 <item name="anonymous" xsi:type="boolean">true</item>
